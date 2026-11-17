@@ -101,7 +101,7 @@ def compare_answers(context: str, extractive: str, generated: str):
 
 with st.sidebar:
     st.header("Settings")
-    model_name = st.selectbox("Gemini model", ["gemini-2.5-flash", "gemini-2.0-flash"], index=0)
+    model_name = st.selectbox("Gemini model", ["gemini-3.8-flash"], index=0)
     show_demo = st.checkbox("Load sample passage", value=True)
     st.markdown("---")
     st.caption("Privacy: avoid pasting confidential or sensitive personal information.")
