@@ -1,5 +1,5 @@
 streamlit>=1.37
-transformers>=4.44
+transformers>=4.44,<5.0
 torch>=2.2
 sentencepiece>=0.2
 google-genai>=1.0
